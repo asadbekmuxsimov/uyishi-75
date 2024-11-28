@@ -1,0 +1,39 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Soat",
+      "info": "Soat yaxshi sifatli Amerikada ishlab chiqarilgan",
+      "price": 40.99,
+      "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+      "liked": false,
+      "like": []
+    },
+    {
+      "id": "2",
+      "name": "O'simlik",
+      "info": "O'simlik sun'iy yetishtirilgan",
+      "price": 40.99,
+      "img": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/myuata-0-0-0-0-1587103516.jpg",
+      "liked": false,
+      "like": []
+    },
+    {
+      "id": "3",
+      "name": "Kamera",
+      "info": "Kamera yaxshi sifatli Amerikada ishlab chiqarilgan",
+      "price": 40.99,
+      "img": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg",
+      "liked": false
+    },
+    {
+      "id": "4",
+      "name": "Notebook",
+      "info": "Noutbuk yaxshi sifatli Amerikada ishlab chiqarilgan",
+      "price": 40.99,
+      "img": "https://ekler.uz/wp-content/uploads/2024/09/kompiutery-2.webp",
+      "liked": false
+    }
+  ],
+  "like": []
+}
