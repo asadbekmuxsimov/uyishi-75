@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         let like = document.createElement("button");
         like.setAttribute("product-id", product.id);
-        like.textContent = "Liked"; // Bu sahifa "Liked" bo'lgan mahsulotlarni ko'rsatadi
+        like.textContent = "Liked";
         like.classList.add("like");
   
         productContainer.append(
@@ -43,17 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
   
         card.append(productContainer);
   
-        // Like tugmasi bosilganda hodisa
         like.addEventListener("click", async (e) => {
           let btn = e.target;
           let id = btn.getAttribute("product-id");
   
-          // Like bo'lgan mahsulotni o'chirish
           await fetch(`http://localhost:3000/like/${id}`, {
             method: "DELETE",
           });
   
-          // Sahifadan mahsulot kartochkasini o'chirish
           let containerToRemove = document.querySelector(
             `.product-container[data-id="${id}"]`
           );
@@ -61,7 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
             containerToRemove.remove();
           }
   
-          // Mahsulotni asosiy `product` JSON-dan "liked" holatini yangilash
           await fetch(`http://localhost:3000/product/${id}`, {
             method: "PATCH",
             headers: {

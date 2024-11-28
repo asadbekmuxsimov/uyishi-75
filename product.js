@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let productImage = document.createElement("img");
         productImage.src = product.img;
         productImage.classList.add("product-image");
-  
+   
         let productName = document.createElement("h3");
         productName.textContent = product.name;
         productName.classList.add("product-name");
